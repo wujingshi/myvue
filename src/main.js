@@ -21,13 +21,15 @@ import App from './App.vue'
 // 导入组件
 import home from './components/home/home.vue'
 import music from './components/music/music.vue'
+import foodClassify from './components/food/foodClassify.vue'
 
 // 创建路由实例
 const router = new VueRouter({
   routes:[
     {path:'/',redirect:'/home'},
     {path:'/home',component:home},
-    {path:'/music',component:music}
+    {path:'/music',component:music},
+    {path:'/foodClassify',component:foodClassify}
   ]
 })
 

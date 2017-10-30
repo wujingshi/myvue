@@ -21,9 +21,9 @@
               </router-link>
           </li>
           <li>
-              <a href="#">
+              <router-link to="/foodClassify">
                   <img src="https://m.360buyimg.com/mobilecms/jfs/t10960/43/2074934332/13451/e11c7697/59eefb97Nb8635dcf.png" alt="">
-              </a>
+              </router-link>
           </li>
           <li>
               <a href="#">
